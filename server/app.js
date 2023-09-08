@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 const user_data = {};
 
-app.post("/user_data", (req, res) => {
+app.post("/bfhl", (req, res) => {
  const {
   user_id,
   college_email_id,
@@ -39,7 +39,7 @@ app.post("/user_data", (req, res) => {
  });
 });
 
-app.get("/operation_code", (req, res) => {
+app.get("/bfhl", (req, res) => {
  res.json({ operation_code: "1" });
 });
 
